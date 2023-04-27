@@ -23,6 +23,7 @@ systemctl start httpd.service <br />
 systemctl enable httpd.service <br />
 
 Instalacja snapa <br />
+sudo yum install epel-release <br />
 sudo yum install snapd <br />
 sudo systemctl enable --now snapd.socket <br />
 sudo ln -s /var/lib/snapd/snap /snap <br />
