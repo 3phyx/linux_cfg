@@ -8,6 +8,8 @@ Przeglądarka w konsoli <br />
 sudo yum install links <br />
 sudo yum install elinks <br />
 
+Przed instalacją dodatkowego oprogramowania zainstaluj epela!
+
 Wget i 7zip <br />
 
 sudo yum install wget <br />
