@@ -31,6 +31,21 @@ Instalacja flatpaka <br />
 sudo yum install flatpak <br />
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo <br />
 
+Konfiguracja yum <br />
+
+/etc/yum.conf <br />
+
+installonly_limit=2 <br />
+clean_requirements_on_remove=True <br />
+defaultyes=True <br />
+deltarpm=False <br />
+metadata_timer_sync=3600 <br />
+max_parallel_downloads=10 <br />
+ip_resolve=4 <br />
+install_weak_deps=False <br />
+
+
+
 
 
 
